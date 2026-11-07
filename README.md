@@ -36,45 +36,15 @@ FileRunner is a file browser for Windows 10 and 11 in the dark \*Runner style: a
 
 ## Download
 
-**Latest version: v0.12** (Nov 7, 2026)
+**Latest version: v0.13** (Nov 7, 2026)
 
-- [FileRunner_v0.12_no-install.zip](https://github.com/codenomics/FileRunner/releases/download/v0.12/FileRunner_v0.12_no-install.zip) - 107 KB
-- [FileRunner_v0.12_Setup.exe](https://github.com/codenomics/FileRunner/releases/download/v0.12/FileRunner_v0.12_Setup.exe) - 143 KB
-- [FileRunner_v0.12_source.zip](https://github.com/codenomics/FileRunner/releases/download/v0.12/FileRunner_v0.12_source.zip) - 94 KB
+- [FileRunner_v0.13_no-install.zip](https://github.com/codenomics/FileRunner/releases/download/v0.13/FileRunner_v0.13_no-install.zip) - 108 KB
+- [FileRunner_v0.13_Setup.exe](https://github.com/codenomics/FileRunner/releases/download/v0.13/FileRunner_v0.13_Setup.exe) - 143 KB
+- [FileRunner_v0.13_source.zip](https://github.com/codenomics/FileRunner/releases/download/v0.13/FileRunner_v0.13_source.zip) - 94 KB
 
-What's new in v0.12:
+What's new in v0.13:
 
-- New toolbar: New folder, Cut, Copy, Paste, Rename and Delete
-- Copy, cut and paste work with File Explorer too; Windows shows its own progress and "already exists" boxes
-- Delete uses the Recycle Bin (Shift+Delete deletes for good)
-- Rename with F2, right in the list
-- Windows' own right-click menu on files and folders, and a themed menu for empty space
-- Drag and drop between folders, the sidebar and the address bar
-- New keys: Ctrl+Shift+N, Alt+Enter (Properties), F6 (address bar), F11 (full screen)
-- Settings now has a Close button at the bottom
-- Right-click on files and folders opens a themed menu; "Show more options" opens Windows' own menu
-- Right-click menu has Open with... and 7-Zip (extract / add to archive) when 7-Zip is installed
-- Tabs in the title bar: Ctrl+T new tab, Ctrl+W close, Ctrl+Tab to switch, middle-click a folder to open it in a new tab; your tabs come back next time
-- Pin folders to the sidebar (right-click > Pin, or drag a folder onto the empty part of the sidebar); drag pins to reorder them
-- Home shows your pinned folders and your recent folders under their own headings
-- Views: Details, Medium icons and Large icons with real thumbnails (View button, or Ctrl+Shift+6 / 2 / 3); remembered for each folder
-- Sort by name, date, type or size from the View menu
-- Search box (Ctrl+F or F3): finds files in this folder and the folders inside it as you type
-- Preview pane (Alt+P): pictures, text files and whatever Windows can show
-- Pictures open in FileRunner's own viewer: arrow keys for next / previous, mouse wheel to zoom, drag the picture out to another folder or app (can be turned off in Settings)
-- Drag tabs to put them in a different order
-- The status bar shows the free space of the drive
-- Customize the sidebar: remove anything (Home, folders, This PC, the drives), add folders, and drag items up, down or into another category
-- Make your own categories: right-click the empty part of the sidebar > New category; rename them by double-click; drop folders or sidebar items on a category's heading
-- Rename items in the sidebar (right-click > Rename in the sidebar): only the name shown there changes, not the folder
-- Settings > Windows: "Use FileRunner as my file browser" (Win+E and folders opened from other programs open in FileRunner; switch it off to give File Explorer back)
-- Tabs start fresh each time: closing FileRunner closes its tabs, and a new window doesn't copy the tabs of one that is open. Turn on Settings > Remember open tabs when FileRunner is closed to get them back
-- Zip files open like folders (double-click or Enter): browse inside, copy files out (Ctrl+C or drag), double-click a file to open it, right-click > Extract. Zip files can't be changed from FileRunner. Can be turned off in Settings
-- Right-click a zip file > Extract all here / Extract all to a folder...
-- Settings now open in their own window, with two pages: General, and Look and theme (theme, glass and new effects: colored window border (theme color, custom color, or Drifting - two colors you pick slowly flow around the border and along the line under the title bar), glow around the outside of the window, glass type (Frosted, Mica, Mica Alt), one switch for all effects). Moving effects pause when FileRunner is minimized or not in front
-- More effects on the Look and theme page: neon selection, synthwave grid behind the file list (with a brightness slider), *Runner icons in the sidebar, smooth fades when changing folders and pages, address bar and search box that match the glass, and an address bar that fits the path and grows when clicked
-- Effect colors: neon selection and the synthwave grid follow the window border colors; the grid runs under the sidebar too; *Runner sidebar icons have their own color choice
-- Deleting permanently (Shift+Delete, or from a drive with no Recycle Bin) now asks in FileRunner's own style instead of Windows' box (can be turned off)
+- Fixed: Control Panel (and other Windows places like the Recycle Bin) opened FileRunner instead. They now open in Windows' own window; This PC still opens in FileRunner
 
 Older versions are on the [Releases page](https://github.com/codenomics/FileRunner/releases).
 
