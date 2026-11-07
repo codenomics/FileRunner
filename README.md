@@ -36,15 +36,15 @@ FileRunner is a file browser for Windows 10 and 11 in the dark \*Runner style: a
 
 ## Download
 
-**Latest version: v0.13** (Nov 7, 2026)
+**Latest version: v0.14** (Nov 7, 2026)
 
-- [FileRunner_v0.13_no-install.zip](https://github.com/codenomics/FileRunner/releases/download/v0.13/FileRunner_v0.13_no-install.zip) - 108 KB
-- [FileRunner_v0.13_Setup.exe](https://github.com/codenomics/FileRunner/releases/download/v0.13/FileRunner_v0.13_Setup.exe) - 143 KB
-- [FileRunner_v0.13_source.zip](https://github.com/codenomics/FileRunner/releases/download/v0.13/FileRunner_v0.13_source.zip) - 94 KB
+- [FileRunner_v0.14_no-install.zip](https://github.com/codenomics/FileRunner/releases/download/v0.14/FileRunner_v0.14_no-install.zip) - 108 KB
+- [FileRunner_v0.14_Setup.exe](https://github.com/codenomics/FileRunner/releases/download/v0.14/FileRunner_v0.14_Setup.exe) - 144 KB
+- [FileRunner_v0.14_source.zip](https://github.com/codenomics/FileRunner/releases/download/v0.14/FileRunner_v0.14_source.zip) - 95 KB
 
-What's new in v0.13:
+What's new in v0.14:
 
-- Fixed: Control Panel (and other Windows places like the Recycle Bin) opened FileRunner instead. They now open in Windows' own window; This PC still opens in FileRunner
+- Fixed: Control Panel and other Windows places (Power Options, Recycle Bin, Network) opened FileRunner or went round in a loop. FileRunner now only takes over real folders and drives; Windows' own places open in Windows' window
 
 Older versions are on the [Releases page](https://github.com/codenomics/FileRunner/releases).
 
