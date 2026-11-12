@@ -36,15 +36,16 @@ FileRunner is a file browser for Windows 10 and 11 in the dark \*Runner style: a
 
 ## Download
 
-**Latest version: v0.15** (Nov 7, 2026)
+**Latest version: v0.16** (Nov 12, 2026)
 
-- [FileRunner_v0.15_no-install.zip](https://github.com/codenomics/FileRunner/releases/download/v0.15/FileRunner_v0.15_no-install.zip) - 108 KB
-- [FileRunner_v0.15_Setup.exe](https://github.com/codenomics/FileRunner/releases/download/v0.15/FileRunner_v0.15_Setup.exe) - 144 KB
-- [FileRunner_v0.15_source.zip](https://github.com/codenomics/FileRunner/releases/download/v0.15/FileRunner_v0.15_source.zip) - 95 KB
+- [FileRunner_v0.16_no-install.zip](https://github.com/codenomics/FileRunner/releases/download/v0.16/FileRunner_v0.16_no-install.zip) - 109 KB
+- [FileRunner_v0.16_Setup.exe](https://github.com/codenomics/FileRunner/releases/download/v0.16/FileRunner_v0.16_Setup.exe) - 145 KB
+- [FileRunner_v0.16_source.zip](https://github.com/codenomics/FileRunner/releases/download/v0.16/FileRunner_v0.16_source.zip) - 95 KB
 
-What's new in v0.15:
+What's new in v0.16:
 
-- With the frosted glass look, the date, type and size columns and the column names use the same bright color as the file names, so they stay readable over a light window behind FileRunner
+- Win+E fixes itself: if Windows or another program sets Win+E back to File Explorer while FileRunner is your file browser, FileRunner points it back the next time it starts
+- Uninstalling one copy of FileRunner no longer switches off the file browser setting when it belongs to another copy
 
 Older versions are on the [Releases page](https://github.com/codenomics/FileRunner/releases).
 
